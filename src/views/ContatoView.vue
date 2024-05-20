@@ -8,7 +8,10 @@
             <button class="button is-info is-fullwidth ">Enviar</button>
            
         </div>
-        <div class="column">Imagem</div>
+        <div class="column">
+            Imagem
+           <img src="/public/img/easyrunemail.png" alt="">
+        </div>
     </div>
 </template>
 
