@@ -25,7 +25,7 @@
       Na Easy Run, acreditamos que cada corrida é uma jornada única, cheia de emoção e conquistas.
     </p>
     <p>
-      Saiba mais sobre nós e descubra como podemos tornar a sua próxima corrida uma experiência inesquecível.
+      <strong> Saiba mais sobre nós e descubra como podemos tornar a sua próxima corrida uma experiência inesquecível.</strong>
     </p>
 </template>
 
@@ -37,5 +37,8 @@ h2{
     font-size: 20px;
     font-weight: bold;
     margin: 10px;
+}
+p{
+    margin-bottom: 20px;
 }
 </style>
