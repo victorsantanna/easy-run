@@ -1,22 +1,24 @@
 <script setup>
-import { RouterView } from 'vue-router'
-import BarraCabecalho from './components/BarraCabecalho.vue'
-import RodaPe from './components/RodaPe.vue'
+
+  import { RouterView } from 'vue-router'
+  import BarraCabecalho from './components/BarraCabecalho.vue'
+  import RodaPe from './components/RodaPe.vue'
 
 </script>
 
 <template>
  
-  <BarraCabecalho />
-  
-  <div class="container">
-    <RouterView />
+    <BarraCabecalho />
+    
+    <div class="container">
+      <RouterView />
 
-  </div>
-  <RodaPe />
+    </div>
+
+    <RodaPe />
+
 </template>
 
 <style scoped>
-
 
 </style>
