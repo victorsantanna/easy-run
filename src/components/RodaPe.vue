@@ -1,7 +1,7 @@
 <template>
     <footer class="footer">
         <div class="content has-text-centered" >
-            <h4>Easy Run</h4>
+            <p>Easy Run &reg; 2024</p>
         </div>
 
     </footer>
@@ -12,14 +12,15 @@
 .footer{
     background-color: #66D1FF;
     padding: 1rem 1.5rem;
+    margin-top: 20px;
    
 }
 .footer .content {
   padding: 1px; 
 }
-.footer h4 {
+.footer p {
   margin: 0; 
-  font-size: 1.25rem; 
+  font-size: 1rem; 
   color:aliceblue;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
