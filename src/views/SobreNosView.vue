@@ -13,12 +13,6 @@
       cada membro traz uma combinação única de habilidades e experiências para criar eventos de corrida excepcionais. 
       Nosso time é formado por especialistas em planejamento de eventos, marketing, logística e atendimento ao cliente, todos unidos por um amor compartilhado pela corrida.
     </p>
-    <p>
-      Trabalhamos juntos para garantir que cada detalhe seja perfeito, desde a inscrição até a linha de chegada. 
-      Nossa equipe acredita no poder transformador das corridas e se esforça para proporcionar experiências memoráveis 
-      que inspirem e conectem corredores de todas as idades e habilidades. Com um compromisso inabalável com a excelência, 
-      a equipe Easy Run está aqui para apoiar e motivar você em cada passo do caminho.
-    </p>
 
     <p>
       Estamos animados para compartilhar histórias inspiradoras e experiências incríveis com todos os nossos corredores e entusiastas.
@@ -34,11 +28,13 @@
 
 <style>
 h2{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     margin: 10px;
 }
 p{
+    font-size: 15px;
     margin-bottom: 20px;
+    padding-left: 20px;
 }
 </style>
