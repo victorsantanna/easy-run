@@ -1,52 +1,28 @@
 <template>
-<nav class="navbar is-info" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-    </a>
+  <nav >
+    <div class="container-central">
+      <div class="container-menu">
+        <RouterLink to="eventos" class="menu-item">
+          Início
+        </RouterLink>
+      
+        <RouterLink  to="/eventos" class="menu-item">
+          Eventos
+        </RouterLink>
+      
+        <RouterLink  to="/contato" class="menu-item">
+          Contato
+        </RouterLink>
 
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item">
-        Inicio
-      </a>
-      <a class="navbar-item">
-        Eventos
-      </a>
-    
-      <RouterLink class="navbar-item" to="/contato">
-        Contato
-      </RouterLink>
-
-      <RouterLink class="navbar-item" to="/sobre-nos">
-        Sobre Nós
-      </RouterLink>
-
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light">
-            Log in
-          </a>
-        </div>
+        <RouterLink  to="/sobre-nos" class="menu-item">
+          Sobre Nós
+        </RouterLink>
+      </div>
+      <div class="container-login" >
+        <button>Log In</button>
       </div>
     </div>
-  </div>
-</nav>
-
-
+  </nav>
 </template>
 
 <script>
@@ -54,5 +30,19 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <style>
+nav{
+  background-color: #66D1FF;
+  padding: 20px;
+}
+.container-central{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu-item{
+  padding: 10px;
+  color: aliceblue;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
 
 </style>
