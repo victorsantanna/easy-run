@@ -1,4 +1,5 @@
 <template>
+  <div class="container">
     <h2>Sobre Nós</h2>
     <p>Bem-vindo ao nosso mundo de eventos de corrida. Onde a paixão encontra o profissionalismo e a criatividade encontra a precisão.
       Aqui na Easy Run estamos dedicados a criar experiências que transcendem o comum.</p>
@@ -21,12 +22,18 @@
     <p>
       <strong> Saiba mais sobre nós e descubra como podemos tornar a sua próxima corrida uma experiência inesquecível.</strong>
     </p>
+  </div>
 </template>
 
 <script>
 </script>
 
-<style>
+<style scoped>
+.container{
+  width:80%;
+  
+}
+
 h2{
     font-size: 16px;
     font-weight: bold;
