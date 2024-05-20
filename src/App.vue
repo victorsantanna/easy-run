@@ -7,7 +7,11 @@ import BarraCabecalho from './components/BarraCabecalho.vue'
 <template>
  
   <BarraCabecalho />
-  <RouterView />
+  
+  <div class="container">
+    <RouterView />
+
+  </div>
 </template>
 
 <style scoped>

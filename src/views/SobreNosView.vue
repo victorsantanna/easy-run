@@ -1,14 +1,13 @@
-
 <template>
-    <h3>Sobre Nós</h3>
+    <h2>Sobre Nós</h2>
     <p>Bem-vindo ao nosso mundo de eventos de corrida. Onde a paixão encontra o profissionalismo e a criatividade encontra a precisão.
       Aqui na Easy Run estamos dedicados a criar experiências que transcendem o comum.</p>
-    <h3>Nossa Missão</h3>
+    <h2>Nossa Missão</h2>
     <p>Na Easy Run, nossa missão é transformar o mundo dos eventos de corrida, unindo paixão e profissionalismo para criar experiências inesquecíveis. 
       Acreditamos que cada evento é uma oportunidade de inspirar e conectar pessoas, celebrando a alegria e a adrenalina das corridas. 
       Com criatividade e precisão, nos dedicamos a superar expectativas, oferecendo uma plataforma inovadora e acessível que transcende o comum. 
       Estamos comprometidos em proporcionar momentos únicos para corredores de todos os níveis, promovendo saúde, bem-estar e um espírito de comunidade vibrante.</p>
-    <h3>Nossa Equipe</h3>
+    <h2>Nossa Equipe</h2>
     <p>
       Na Easy Run, nossa equipe é o coração e a alma de tudo o que fazemos. Composta por profissionais apaixonados e dedicados, 
       cada membro traz uma combinação única de habilidades e experiências para criar eventos de corrida excepcionais. 
@@ -29,3 +28,14 @@
       Saiba mais sobre nós e descubra como podemos tornar a sua próxima corrida uma experiência inesquecível.
     </p>
 </template>
+
+<script>
+</script>
+
+<style>
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+</style>

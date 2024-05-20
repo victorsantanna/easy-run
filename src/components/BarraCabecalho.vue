@@ -20,12 +20,15 @@
       <a class="navbar-item">
         Eventos
       </a>
-      <a class="navbar-item">
-        Contatos
-      </a>
-      <a class="navbar-item">
+    
+      <RouterLink class="navbar-item" to="/contato">
+        Contato
+      </RouterLink>
+
+      <RouterLink class="navbar-item" to="/sobre-nos">
         Sobre Nós
-      </a>
+      </RouterLink>
+
     </div>
 
     <div class="navbar-end">
@@ -47,12 +50,9 @@
 </template>
 
 <script>
+import { RouterLink } from 'vue-router';
 </script>
 
 <style>
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 </style>
