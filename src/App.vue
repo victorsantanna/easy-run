@@ -1,6 +1,7 @@
 <script setup>
 import { RouterView } from 'vue-router'
 import BarraCabecalho from './components/BarraCabecalho.vue'
+import RodaPe from './components/RodaPe.vue'
 
 </script>
 
@@ -12,6 +13,7 @@ import BarraCabecalho from './components/BarraCabecalho.vue'
     <RouterView />
 
   </div>
+  <RodaPe />
 </template>
 
 <style scoped>
