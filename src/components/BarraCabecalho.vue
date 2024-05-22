@@ -1,7 +1,7 @@
 <template>
   <nav >
     <div class="container-central ">
-      <div class="container-menu">
+           <div class="container-menu">
         <RouterLink to="/" class="menu-item">
           INÍCIO
         </RouterLink>
@@ -19,7 +19,9 @@
         </RouterLink>
       </div>
       <div class="container-login" >
+        <RouterLink  to="/login">
         <button class="button is-white">Log In</button>
+        </RouterLink>
       </div>
     </div>
   </nav>
@@ -36,13 +38,18 @@ export default{
 </script>
 
 
-<style>
+<style scoped>
 nav{
   background-color: #66D1FF;
   padding: 5px;
 }
+img{
+  width: 50px;
+  height: 40px;
+
+}
 .container-central{
-    padding-left: 50px;
+  padding-left: 10px;
   padding-top: 15px;
   display: flex;
   flex-direction: row;
@@ -63,6 +70,12 @@ nav{
 button{
   margin-bottom: 6px;
   margin-right: 10px;
+}
+
+button:hover{
+  background-color: #060707;
+  transition: .5s;
+  color: aliceblue;
 }
 
 </style>
