@@ -1,35 +1,44 @@
-# easy-run
+# Easy Run
 
-This template should help get you started developing with Vue 3 in Vite.
+Easy Run é uma aplicação web desenvolvida para exibir eventos de corrida. O projeto foi criado com o objetivo de aprender sobre roteamento em aplicações Vue.js, utilizando Vue Router.
 
-## Recommended IDE Setup
+## Funcionalidades
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Busca por Eventos: Os usuários podem visualizar uma lista de eventos de corrida.
+- Detalhes do Evento: Ao clicar em um evento, os usuários podem visualizar detalhes como nome, local, data e distância.
+- Interface Amigável: A interface do usuário será desenvolvida com Vue.js, proporcionando uma experiência interativa e intuitiva.
 
-## Customize configuration
+## Como Utilizar
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Instalação de Dependências
 
-## Project Setup
+Antes de começar, certifique-se de ter todas as dependências instaladas. Você pode fazer isso executando o seguinte comando no diretório do projeto:
 
-```sh
 npm install
-```
 
-### Compile and Hot-Reload for Development
 
-```sh
+### Execução do Projeto
+
+Após instalar as dependências, você pode iniciar o servidor de desenvolvimento com o seguinte comando:
+
 npm run dev
-```
 
-### Compile and Minify for Production
 
-```sh
-npm run build
-```
+### Acesso à Aplicação
 
-### Lint with [ESLint](https://eslint.org/)
+Acesse a aplicação em seu navegador através do endereço [http://localhost:8080](http://localhost:8080).
 
-```sh
-npm run lint
-```
+## Tecnologias Utilizadas
+
+- Vue.js 3
+- Vue Router
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um PR (pull request) com melhorias, correções de bugs ou novas funcionalidades.
+
+## Licença
+
+Este projeto é licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
+
+
