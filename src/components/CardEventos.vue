@@ -1,5 +1,6 @@
 <template>
     <div class="column is-3">
+    <RouterLink :to="{ name: 'eventoDetalhe', params: { id: eventoRecebido.id } }">
         <div class="card" >
             <div class="card-content custom-card-content">
                 <div class="media">
@@ -11,11 +12,10 @@
                 </div>
                 <div class="content ">
                     <p>Data: {{ eventoRecebido.data }}</p><br>
-                
                 </div>
             </div>
         </div>
-
+    </RouterLink>
     </div>
     
 </template>
@@ -34,7 +34,7 @@ defineProps({
 .card{
     height: 200px;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }
 .card:hover {
