@@ -1,17 +1,17 @@
 <template>
     <div class="column is-3">
-    <RouterLink :to="{ name: 'eventoDetalhe', params: { id: eventoRecebido.id } }">
+        <RouterLink :to="{ name: 'eventoDetalhe', params: { id: eventoRecebido.id }, query: { nome: eventoRecebido.nome, local: eventoRecebido.local, data: eventoRecebido.data, distancia: eventoRecebido.distancia } }">
         <div class="card" >
             <div class="card-content custom-card-content">
                 <div class="media">
                     <div class="media-content">
                         <p class="title is-6">{{ eventoRecebido.nome }}</p>
-                        <p class="subtitle is-6">Local: {{ eventoRecebido.Local }}</p>
+                        <p class="subtitle is-6">Local: {{ eventoRecebido.local }}</p>
                         <hr>
                     </div>
                 </div>
                 <div class="content ">
-                    <p>Data: {{ eventoRecebido.data }}</p><br>
+                    <p>Data: {{ eventoRecebido.data }}</p>
                 </div>
             </div>
         </div>
