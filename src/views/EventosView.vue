@@ -16,18 +16,18 @@ import  { ref, computed } from 'vue';
 
 
 const eventos = [
-    {id: 1, nome: 'Night Run - Recife', Local:'Recife', data: '25/05/2024', Distancia:'10/5km'},
-    {id: 2, nome: 'Corrida das Pontes', Local:'Recife', data: '02/06/2024', Distancia:'10/5km'},
-    {id: 3, nome: 'Music Running 2024 - São João', Local:'Caruaru', data: '09/06/2024', Distancia:'10/5km'},
-    {id: 4, nome: '46ª Corrida Guararapes', Local:'Recife', data: '09/06/2024', Distancia:'10/5km'},
-    {id: 5, nome: 'Maratona de Olinda', Local:'Olinda', data: '16/06/2024', Distancia:'42/21/10/5km'},
-    {id: 6, nome: 'Circuito das Estações 2024', Local:'Recife', data: '07/07/2024', Distancia:'15/10/5km'},
-    {id: 7, nome: 'Corrida de Petrolina', Local:'Petrolina', data: '16/06/2024', Distancia:'42/21/10/5km'},
-    {id: 8, nome: 'Circuito do verão 2024', Local:'Recife', data: '07/12/2024', Distancia:'15/10/5km'},
-    {id: 9, nome: 'Corrida de Olinda', Local:'Olinda', data: '16/10/2024', Distancia:'42/21/10/5km'},
-    {id: 10, nome: 'Circuito do fogo 2024', Local:'Recife', data: '07/09/2024', Distancia:'15/10/5km'},
-    {id: 11, nome: 'Run de Carpina', Local:'Carpina', data: '16/08/2024', Distancia:'42/21/10/5km'},
-    {id: 12, nome: 'Circuito Corre Fácil', Local:'Recife', data: '20/11/2024', Distancia:'15/10/5km'}
+    {id: 1, nome: 'Night Run - Recife', local:'Recife', data: '25/05/2024', distancia:'10/5km'},
+    {id: 2, nome: 'Corrida das Pontes', local:'Recife', data: '02/06/2024', distancia:'10/5km'},
+    {id: 3, nome: 'Music Running 2024 - São João', local:'Caruaru', data: '09/06/2024', distancia:'10/5km'},
+    {id: 4, nome: '46ª Corrida Guararapes', local:'Recife', data: '09/06/2024', distancia:'10/5km'},
+    {id: 5, nome: 'Maratona de Olinda', local:'Olinda', data: '16/06/2024', distancia:'42/21/10/5km'},
+    {id: 6, nome: 'Circuito das Estações 2024', local:'Recife', data: '07/07/2024', distancia:'15/10/5km'},
+    {id: 7, nome: 'Corrida de Petrolina', local:'Petrolina', data: '16/06/2024', distancia:'42/21/10/5km'},
+    {id: 8, nome: 'Circuito do verão 2024', local:'Recife', data: '07/12/2024', distancia:'15/10/5km'},
+    {id: 9, nome: 'Corrida de Olinda', local:'Olinda', data: '16/10/2024', distancia:'42/21/10/5km'},
+    {id: 10, nome: 'Circuito do fogo 2024', local:'Recife', data: '07/09/2024', distancia:'15/10/5km'},
+    {id: 11, nome: 'Run de Carpina', local:'Carpina', data: '16/08/2024', distancia:'42/21/10/5km'},
+    {id: 12, nome: 'Circuito Corre Fácil', local:'Recife', data: '20/11/2024', distancia:'15/10/5km'}
 
 ];
 const nome = ref('');
