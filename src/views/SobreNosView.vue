@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h2>Sobre Nós</h2>
-    <p>Bem-vindo ao nosso mundo de eventos de corrida. Onde a paixão encontra o profissionalismo e a criatividade encontra a precisão.
+    <p>Bem-vindo ao nosso mundo de eventos de corrida. Onde a paixão encontra o profissionalismo e a criatividade encontra a precisão.<br>
       Aqui na Easy Run estamos dedicados a criar experiências que transcendem o comum.</p>
     <h2>Nossa Missão</h2>
     <p>Na Easy Run, nossa missão é transformar o mundo dos eventos de corrida, unindo paixão e profissionalismo para criar experiências inesquecíveis. 
@@ -30,9 +30,13 @@
 
 <style scoped>
 .container{
-  width:80%;
-  
+  max-width: 990px;
+  border: 1.5px solid #ccc;
+  border-radius: 10px; 
+  box-shadow: 0 5px 10px rgba(0, 0, 0.3, 0.3);
+  margin: 5px;
 }
+
 
 h2{
     font-size: 16px;

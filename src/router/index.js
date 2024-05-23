@@ -32,7 +32,14 @@ const router = createRouter({
     {
       path: '/eventos/:id',
       name: 'eventoDetalhe',
-      component: () => import('../views/DetalhesEvento.vue')
+      component: () => import('../views/DetalhesEvento.vue'),
+      props: route => ({
+        id: route.params.id,
+        nome: route.query.nome,
+        local: route.query.local,
+        data: route.query.data,
+        distancia: route.query.distancia,
+      })
     },
   ]
 })
